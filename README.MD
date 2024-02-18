@@ -4,7 +4,7 @@
 
 ---
 ## Disclaimer:
-This program is inspired by [Device-Auth-Generator](https://github.com/xMistt/DeviceAuthGenerator) made by xMisst, and is made to be a Rust version of it.
+This program is inspired by [Device-Auth-Generator](https://github.com/xMistt/DeviceAuthGenerator) made by [xMisst](https://github.com/xMistt/), and is made to be a Rust version of it.
 And also, this is my first Rust project, so it may not be the best code you have ever seen.
 
 ---

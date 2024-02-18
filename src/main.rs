@@ -84,6 +84,7 @@ impl DeviceGenerator {
                 .body(format!("grant_type=device_code&device_code={}", code))
                 .send()?;
 
+            // TODO: Handle epic errors
             match response.status() {
                 StatusCode::OK => {
                     let response_json: serde_json::Value = response.json()?;
