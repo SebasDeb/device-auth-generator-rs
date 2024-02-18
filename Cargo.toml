@@ -10,3 +10,7 @@ reqwest = { version = "0.11", features = ["json", "blocking"] }
 serde_json = "1.0.113"
 serde = { version = "1.0.196" , features = ["derive"] }
 webbrowser = "0.8.12"
+
+[[bin]]
+name = "device-auth-generator-rs"
+path = "src/main.rs"
